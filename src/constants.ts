@@ -84,7 +84,7 @@ export const RESUME_DATA: ResumeData = {
         "Presented the research paper at the International Conference on Recent Trends in Intelligent Computing and Communication (ICRTICC-2025).",
         "Demonstrated how data-driven analysis can extract meaningful patterns from unstructured chat records for behavioral insights."
       ],
-      "certificateUrl": "Project_ certificate.pdf"
+      "certificateUrl": "/Project_Certificate.pdf"
     }
   ],
   "skills": {
