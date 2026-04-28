@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { AnimatePresence } from 'motion/react';
 import Splash from './components/Splash';
 import AnimatedBackground from './components/AnimatedBackground';
@@ -19,6 +19,10 @@ import ResumeModal from './components/ResumeModal';
 export default function App() {
   const [loading, setLoading] = useState(true);
   const [isResumeOpen, setIsResumeOpen] = useState(false);
+
+  const handleLoadingComplete = useCallback(() => {
+    setLoading(false);
+  }, []);
 
   useEffect(() => {
     // Smooth scroll for anchor links
@@ -39,8 +43,8 @@ export default function App() {
 
   return (
     <div className="relative min-h-screen bg-[#020205] text-white selection:bg-white selection:text-black">
-      <AnimatePresence>
-        {loading && <Splash onComplete={() => setLoading(false)} />}
+      <AnimatePresence mode="wait">
+        {loading && <Splash onComplete={handleLoadingComplete} />}
       </AnimatePresence>
       
       {!loading && (

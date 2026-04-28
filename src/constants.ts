@@ -13,7 +13,10 @@ export const RESUME_DATA: ResumeData = {
     "location": "Noida, Uttar Pradesh, India",
     "email": "kunalawasthi2002@gmail.com",
     "phone": "7466940060",
-    "links": ["https://www.linkedin.com/in/kunalawasthi21"]
+    "links": [
+      "https://www.linkedin.com/in/kunalawasthi21",
+      "https://kunalawasthii.github.io/My-Portfolio-/"
+    ]
   },
   "experience": [
     {
@@ -72,6 +75,11 @@ export const RESUME_DATA: ResumeData = {
       "title": "Team Leadership",
       "context": "Managed a team of Meter Readers for over 1.5 years",
       "type": "Leadership"
+    },
+    {
+      "title": "Data Analyst Big 4 Ready",
+      "context": "Advanced data analytics certification from OneRoadmap",
+      "type": "Certification"
     }
   ],
   "projects": [
@@ -116,6 +124,10 @@ export const RESUME_DATA: ResumeData = {
     {
       "name": "Data Analyst",
       "url": "https://www.oneroadmap.io/skills/da/certificate/CERT-58F963A2"
+    },
+    {
+      "name": "Data Analyst Big 4 Ready",
+      "url": "https://www.oneroadmap.io/skills/data-analyst-big4/certificate/CERT-505C331E"
     },
     {
       "name": "Big Data Computing",

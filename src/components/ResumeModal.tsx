@@ -4,7 +4,7 @@
  */
 
 import { motion, AnimatePresence } from 'motion/react';
-import { X, Printer, Mail, Phone, MapPin, Linkedin, Download, Loader2 } from 'lucide-react';
+import { X, Printer, Mail, Phone, MapPin, Linkedin, Download, Loader2, Globe } from 'lucide-react';
 import { useState } from 'react';
 import html2pdf from 'html2pdf.js';
 import { RESUME_DATA } from '../constants';
@@ -104,24 +104,28 @@ export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
                   <p className="text-lg font-bold text-gray-700 mb-6">{basics.title}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                     <div className="space-y-2">
-                        <div className="flex items-center space-x-2">
+                        <a href={`mailto:${basics.email}`} className="flex items-center space-x-2 hover:text-blue-600 transition-colors">
                             <Mail size={14} />
                             <span>{basics.email}</span>
-                        </div>
-                        <div className="flex items-center space-x-2">
+                        </a>
+                        <a href={`tel:${basics.phone}`} className="flex items-center space-x-2 hover:text-blue-600 transition-colors">
                             <Phone size={14} />
                             <span>{basics.phone}</span>
-                        </div>
+                        </a>
                     </div>
                     <div className="space-y-2">
                         <div className="flex items-center space-x-2">
                             <MapPin size={14} />
                             <span>{basics.location}</span>
                         </div>
-                        <div className="flex items-center space-x-2">
+                        <a href="https://linkedin.com/in/kunalawasthi21" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-blue-600 transition-colors">
                             <Linkedin size={14} />
                             <span>linkedin.com/in/kunalawasthi21</span>
-                        </div>
+                        </a>
+                        <a href="https://kunalawasthii.github.io/My-Portfolio-/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-blue-600 transition-colors">
+                            <Globe size={14} />
+                            <span className="truncate">kunalawasthii.github.io/My-Portfolio-</span>
+                        </a>
                     </div>
                   </div>
                 </header>
