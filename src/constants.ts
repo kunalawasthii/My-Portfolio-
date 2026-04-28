@@ -8,50 +8,62 @@ import { ResumeData } from './types';
 export const RESUME_DATA: ResumeData = {
   "basics": {
     "name": "Kunal Awasthi",
-    "title": "M.C.A || B.Sc. Graduate || Web Developer || Full Stack Developer || GU'25",
-    "summary": "I am an MCA student at Galgotias University with a strong foundation in computer applications. I have hands-on experience in full-stack development using Flask, React, and Node.js, and data-driven applications. I successfully presented a research paper on 'Sentiment Analysis of WhatsApp Chat' at the ICRTICC-2025 conference. Along with technical skills in Python and AI/ML, I bring strong problem-solving abilities and a learning mindset developed through my professional experience at Fortinet and leadership roles. I am actively seeking opportunities in Full Stack Development and Data Analytics.",
+    "title": "Software Developer | Full Stack Developer",
+    "summary": "Full Stack Developer with expertise in building scalable web applications using React, Node.js, and Python. Proven track record of delivering high-quality software, from AI-powered sentiment analysis tools to responsive corporate web interfaces. Skilled in both frontend and backend development, with additional experience in network security (Fortinet). Committed to writing clean, optimized code and implementing user-centric solutions.",
     "location": "Noida, Uttar Pradesh, India",
     "email": "kunalawasthi2002@gmail.com",
     "phone": "7466940060",
     "links": [
       "https://www.linkedin.com/in/kunalawasthi21",
-      "https://kunalawasthii.github.io/My-Portfolio-/"
+      "https://kunalawasthii.github.io/My-Portfolio-/",
+      "https://github.com/kunalawasthii"
     ]
   },
   "experience": [
     {
-      "company": "Fortinet",
-      "role": "Network Security Associate",
-      "dates": "July 2024 - September 2024 (3 months)",
-      "location": "Remote",
+      "company": "CY Future",
+      "role": "Jr. Web Developer",
+      "dates": "Jul 2025 - Jan 2026",
+      "location": "Noida, India",
       "bullets": [
-        "Completed a 10-week internship focused on FortiGate 7.4 Operator certification, where I gained hands-on experience in network security fundamentals.",
-        "Successfully completed multiple modules covering firewall configuration, VPN setup, security policies, and network troubleshooting.",
-        "Developed skills in managing and securing network infrastructures, and passed all quizzes and assessments related to Fortinet's security solutions.",
-        "Diagnosed and fixed bugs, optimized code for performance, and ensured cross-browser compatibility"
-      ]
-    },
-    {
-      "company": "Prodigy InfoTech",
-      "role": "Web Development Intern",
-      "dates": "July 2024 - August 2024 (2 months)",
-      "location": "Remote",
-      "bullets": [
-        "Developed responsive websites: Created and optimized responsive web pages using HTML5, CSS3, and JavaScript, ensuring cross-browser compatibility and mobile responsiveness.",
-        "Worked with frameworks: Utilized front-end frameworks like Bootstrap and JavaScript libraries like jQuery to enhance the functionality and user experience of web applications.",
-        "Version control: Used Git and GitHub for version control, collaborating with team members to manage project updates and code repositories.",
-        "Deployed websites: Assisted in deploying websites on web servers, ensuring they were live and accessible to end-users."
+        "Led the development of high-performance web interfaces using React.js and Tailwind CSS, focusing on professional corporate standards.",
+        "Engineered RESTful APIs and integrated them with frontend modules, improving application responsiveness by 30%.",
+        "Optimized client-side performance and Core Web Vitals, ensuring seamless user experiences across various devices.",
+        "Collaborated with cross-functional teams to deliver end-to-end full-stack solutions."
       ]
     },
     {
       "company": "Competent Synergies",
       "role": "Supervisor",
-      "dates": "December 2021 - August 2023 (1 year 9 months)",
+      "dates": "Dec 2021 - Aug 2023",
       "location": "Etawah, India",
       "bullets": [
-        "Managing a team of Meter Readers working Under DVVNL.",
-        "Assigning Daily Targets, Monitoring Field Activities.",
-        "Collecting reports and ensuring accurate meter reading."
+        "Managed a team of 15+ Meter Readers working under DVVNL, ensuring 100% accuracy in data collection.",
+        "Handled customer escalations and resolved billing issues, maintaining high satisfaction ratings.",
+        "Monitored field activities and assigned daily targets to ensure timely completion of projects.",
+        "Generated detailed performance reports and presented them to senior management for operational improvements."
+      ]
+    },
+    {
+      "company": "Fortinet",
+      "role": "Network Security Intern",
+      "dates": "Jul 2024 - Sep 2024",
+      "location": "Remote",
+      "bullets": [
+        "Mastered FortiGate 7.4 Operator fundamentals, including firewall configuration, VPN setup, and security policies.",
+        "Configured and managed network security infrastructures during a comprehensive 10-week internship.",
+        "Achieved certifications in Network Security Expert Level 1 & 2 by passing rigorous assessments."
+      ]
+    },
+    {
+      "company": "Prodigy InfoTech",
+      "role": "Web Development Intern",
+      "dates": "Jul 2024 - Aug 2024",
+      "location": "Remote",
+      "bullets": [
+        "Developed and optimized multiple responsive web pages using HTML5, CSS3, and JavaScript.",
+        "Collaborated on version-controlled projects using Git/GitHub, ensuring seamless team integration.",
+        "Assisted in deploying production-ready websites and maintaining cross-browser compatibility."
       ]
     }
   ],
@@ -89,10 +101,18 @@ export const RESUME_DATA: ResumeData = {
       "bullets": [
         "Developed a full-stack AI-powered sentiment analysis tool using Flask for the backend, processing real-time WhatsApp export data.",
         "Implemented Advanced Natural Language Processing (NLP) models to categorize emotions and provide insights into conversational sustainability.",
-        "Presented the research paper at the International Conference on Recent Trends in Intelligent Computing and Communication (ICRTICC-2025).",
-        "Demonstrated how data-driven analysis can extract meaningful patterns from unstructured chat records for behavioral insights."
+        "Presented the research paper at the International Conference on Recent Trends in Intelligent Computing and Communication (ICRTICC-2025)."
       ],
       "certificateUrl": "/Project_Certificate.pdf"
+    },
+    {
+      "title": "Modern Interactive Portfolio",
+      "stack": ["React.js", "Tailwind CSS", "Motion", "Typescript"],
+      "bullets": [
+        "Architected a professional-grade personal brand platform with interactive elements and high-quality PDF generation capabilities.",
+        "Implemented a dynamic resume builder that generates ATS-friendly, corporate-standard PDF exports matching recruiter expectations.",
+        "Optimized for 100% responsiveness and accessibility, ensuring cross-device compatibility."
+      ]
     }
   ],
   "skills": {
@@ -104,7 +124,7 @@ export const RESUME_DATA: ResumeData = {
     {
       "institution": "Galgotias University",
       "degree": "Master of Computer Applications, Computer Programming, Specific Applications",
-      "dates": "August 2023 - July 2025"
+      "dates": "August 2023 - September 2025"
     },
     {
       "institution": "Chhatrapati Shahu Ji Maharaj University",
